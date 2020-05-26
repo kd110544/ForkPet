@@ -52,7 +52,7 @@ void set_object_tracker(JNIEnv* env, jobject thiz,
 extern "C" {
 #endif
 JNIEXPORT
-void JNICALL OBJECT_TRACKER_METHOD(initNative)(JNIEnv* env, jobject thiz,
+void JNICALL OBJECT_TRACKER_METHOD(initNative)(JNIEnv* env, jobject ,
                                                jint width, jint height,
                                                jboolean always_track);
 

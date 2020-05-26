@@ -17,17 +17,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-      <pp.petdetector.AutoFitTextureView
+      <org.tw.forkpet.pp.petdetector.AutoFitTextureView
           android:id="@+id/texture"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
 
-      <pp.petdetector.OverlayView
+      <org.tw.forkpet.pp.petdetector.OverlayView
           android:id="@+id/tracking_overlay"
           android:layout_width="match_parent"
           android:layout_height="match_parent"/>
 
-      <pp.petdetector.OverlayView
+      <org.tw.forkpet.pp.petdetector.OverlayView
           android:id="@+id/debug_overlay"
           android:layout_width="match_parent"
           android:layout_height="match_parent"/>
