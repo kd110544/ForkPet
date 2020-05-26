@@ -24,7 +24,7 @@ limitations under the License.
 #include "yuv2rgb.h"
 
 #define IMAGEUTILS_METHOD(METHOD_NAME) \
-  Java_pp_petdetector_env_ImageUtils_##METHOD_NAME  // NOLINT
+  Java_org_tw_forkpet_pp_petdetector_env_ImageUtils_##METHOD_NAME  // NOLINT
 
 #ifdef __cplusplus
 extern "C" {
